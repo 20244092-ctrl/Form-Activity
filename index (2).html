@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>DelaCruz – HTML Form Activity</title>
+  </head>
+  <body>
+    <h1>HTML Form</h1>
+    
+    <form action="#" method="post">
+      <!-- Personal Information Fieldset -->
+      <fieldset>
+        <legend>Personal Information</legend>
+        <p>
+          <label for="fullname">Name:</label><br>
+          <input type="text" id="fullname" name="fullname" required>
+        </p>
+        <p>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+      </fieldset>
+
+      <!-- Gender Fieldset -->
+      <fieldset>
+        <legend>Gender</legend>
+        <p>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+          
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label>
+        </p>
+      </fieldset>
+
+      <!-- Hobbies Fieldset -->
+      <fieldset>
+        <legend>Hobbies</legend>
+        <p>
+          <input type="checkbox" id="reading" name="hobbies" value="reading">
+          <label for="reading">Reading</label><br>
+          
+          <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+          <label for="traveling">Traveling</label><br>
+          
+          <input type="checkbox" id="sports" name="hobbies" value="sports">
+          <label for="sports">Sports</label>
+        </p>
+      </fieldset>
+
+      <!-- Additional Comments -->
+      <p>
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+      </p>
+
+      <!-- Submit Button -->
+      <p>
+        <input type="submit" value="Submit">
+      </p>
+    </form>
+  </body>
+</html>
+
